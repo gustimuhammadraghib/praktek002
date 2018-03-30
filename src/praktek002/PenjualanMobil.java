@@ -4,6 +4,12 @@ package praktek002;
 Integer harga_mobil;
 Integer jumlah_unit;
 
+    public PenjualanMobil() {
+     harga_mobil=70000000;
+     jumlah_unit=2;
+     
+    }
+
 
  void cetakInfo(){
     System.out.println("================================");
@@ -18,7 +24,6 @@ Integer jumlah_unit;
             
     }
     void cetaktotal(){
-        System.out.println("Totalnya    = "+hitungtotal());
-       
+        System.out.println("Totalnya Adalah    = "+hitungtotal());
     }
  }
