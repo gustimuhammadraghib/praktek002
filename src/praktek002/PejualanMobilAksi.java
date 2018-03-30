@@ -7,5 +7,7 @@ public class PejualanMobilAksi {
         r1.harga_mobil = 100000000;
         r1.jumlah_unit = 2;
         
+        r1.cetakInfo();
+        
     }
 }
