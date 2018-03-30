@@ -4,10 +4,20 @@ package praktek002;
 Integer harga_mobil;
 Integer jumlah_unit;
 
+
  void cetakInfo(){
     System.out.println("================================");
     System.out.println("harga_mobil     :"+harga_mobil);
     System.out.println("jumlah_unit     :"+jumlah_unit);
     System.out.println("================================");
  }
-}
+    Integer hitungtotal () {
+            Integer total;
+            total=harga_mobil*jumlah_unit;
+            return total;
+            
+    }
+    void cetaktotal(){
+        System.out.println("Totalnya    = "+hitungtotal());
+    }
+ }

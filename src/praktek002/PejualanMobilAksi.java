@@ -8,6 +8,6 @@ public class PejualanMobilAksi {
         r1.jumlah_unit = 2;
         
         r1.cetakInfo();
-        
+        System.out.println("total   =   "+r1.hitungtotal());
     }
 }
