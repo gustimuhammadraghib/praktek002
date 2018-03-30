@@ -19,5 +19,6 @@ Integer jumlah_unit;
     }
     void cetaktotal(){
         System.out.println("Totalnya    = "+hitungtotal());
+       
     }
  }
